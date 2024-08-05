@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "name": "Otter Pops",
+    "cost": 5.99,
+    "img": "https://i.redd.it/st0i5ese4x251.jpg",
+    "description": "On a hot summer day as a kid, these were always the best!",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "BayBlades",
+    "cost": 32,
+    "img": "https://thetoyinsider.com/wp-content/uploads/2021/07/Beyblade_BurstProSet.jpg",
+    "description": "Have epic battles in the bayblade arena with your friends!",
+    "rating": 4.9
+  },
+  {
+    "id": 3,
+    "name": "Pokemon Cards",
+    "cost": 1,
+    "img": "https://www.cratejoy.com/cdn/shop/products/A3OtDHBvQisnPpKmuHRm.jpg?v=1698174038",
+    "description": "Each pack contains 50 cards. Have epic battles with friends.",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "name": "The Game Boy",
+    "cost": 60,
+    "img": "https://o.aolcdn.com/images/dims?crop=1600%2C1067%2C0%2C0&quality=85&format=jpg&resize=1600%2C1067&image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2019-04%2F78769f20-62ea-11e9-aead-58faa9222d49&client=a1acac3e1b3290917d92&signature=6aaa3ca599b400be029fbf9798157cc9bcf11003",
+    "description": "Tons of fascinating action-packed adventures that fit inside of your pocket.",
+    "rating": 4.5
+  },
+  {
+    "id": 5,
+    "name": "Finger Flashlights",
+    "cost": 2.99,
+    "img": "https://m.media-amazon.com/images/I/41BPTCE1iOL.jpg",
+    "description": "Illuminate your world with the power of the Finger Flashlights.",
+    "rating": 4.8
+  },
+  {
+    "id": 6,
+    "name": "Nintendo Wii",
+    "cost": 180,
+    "img": "https://m.media-amazon.com/images/I/71f3Ms9IBrL.jpg",
+    "description": "Play your all-time favorite games on this console.",
+    "rating": 4.7
+  },
+  {
+    "id": 7,
+    "name": "Lego City Set",
+    "cost": 45,
+    "img": "https://images.stockx.com/images/LEGO-City-Capital-City-Set-60200.jpg?fit=fill&bg=FFFFFF&w=480&h=320&fm=webp&auto=compress&dpr=2&trim=color&updated_at=1646429136&q=60",
+    "description": "Lego city is in trouble and needs your help! Be the hero and buy this set.",
+    "rating": 4.6
+  },
+  {
+    "id": 8,
+    "name": "Little Hugs",
+    "cost": 13,
+    "img": "https://external-preview.redd.it/tc7gK5qfVhoL9_eBDAq5Idj7kOdFya35qKpJ6I-Wq4Q.png?auto=webp&s=d7accdef8a132e1060b86ad0cdf3c16efe107667",
+    "description": "These were the best on a nice summer day, go inside te house and have a drink.",
+    "rating": 4.7
+  },
+  {
+    "id": 9,
+    "name": "Play Mat",
+    "cost": 30,
+    "img": "https://www.boredpanda.com/blog/wp-content/uploads/2021/10/615ff0e016b7f_l5u5K-a_ED-q4rM0uKxX8AYhPbNNCtcjc_pCqfBIbOc__700.jpg",
+    "description": "Remember playing with your hotwheel cars on this mat? Us too.",
+    "rating": 5
+  },
+  {
+    "id": 10,
+    "name": "Kinder Egg",
+    "cost": 2,
+    "img": "https://imgix.ranker.com/list_img_v2/529/2660529/original/all-about-kinder-surprise-eggs?fit=crop&fm=pjpg&q=80&dpr=2&w=1200&h=720",
+    "description": "Best chocolate in the whole world! The toy in the middle was the awesome.",
+    "rating": 4.9
+  },
+  {
+    "id": 11,
+    "name": "Playstation PSP",
+    "cost": 110,
+    "img": "https://cdn.mos.cms.futurecdn.net/CenxhvdyExZxFzpxNYQQ3Q-1200-80.jpg",
+    "description": "Remember playing games like God Of War on this bad boy? It was the best.",
+    "rating": 4.6
+  },
+  {
+    "id": 12,
+    "name": "Silly Bandz",
+    "cost": 1.99,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/6/69/Silly_Bandz_2009.jpg",
+    "description": "Every single cool kid had a arm full of these back in the day.",
+    "rating": 4.4
+  },
+  {
+    "id": 13,
+    "name": "Razor Scooter",
+    "cost": 40,
+    "img": "https://www.twowheelingtots.com/wp-content/uploads/2020/05/Razor-A5-Action.jpg",
+    "description": "Riding outside on a nice summer day on one of these was so fun. Until it hits your ankle...",
+    "rating": 4.5
+  },
+  {
+    "id": 14,
+    "name": "Floppy Disk",
+    "cost": 3,
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/160308193141-gbs-floppy-disk.jpg?q=w_1920,h_1080,x_0,y_0,c_fill",
+    "description": "Remember watching all of your favorite movies and shows on one of these?",
+    "rating": 4.4
+  },
+  {
+    "id": 15,
+    "name": "Fruit Rollups",
+    "cost": 6.99,
+    "img": "https://hips.hearstapps.com/vidthumb/images/delish-watermelon-fruit-roll-ups-still002-1536587662.jpg",
+    "description": "One of the best childhood candies! Remember making a fake tongue from this?",
+    "rating": 4.9
+  },
+  {
+    "id": 16,
+    "name": "Nokia",
+    "cost": 25,
+    "img": "https://www.smartcompany.com.au/wp-content/uploads/2017/02/Nokia-3310.jpg?fit=680%2C334",
+    "description": "Better known as the most indestructable phone out there.. These were cool.",
+    "rating": 4.5
+  },
+  {
+    "id": 17,
+    "name": "Etch-A-Sketch",
+    "cost": 16,
+    "img": "https://i.ytimg.com/vi/HC2dUoMDwMk/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDrKUtmmIZeY3Kcyn6CIjDtuScHFw",
+    "description": "Remember using these as a kid and drawing a bunch of stick figures?",
+    "rating": 4.8
+  },
+  {
+    "id": 18,
+    "name": "DVD Player",
+    "cost": 30,
+    "img": "https://m.media-amazon.com/images/I/61Mie8CpqsL._AC_SL1200_.jpg",
+    "description": "Watching redbox or blockbuster movies on this thing was the best.",
+    "rating": 4.8
+  },
+  {
+    "id": 19,
+    "name": "Power Rangers",
+    "cost": 22,
+    "img": "https://i.ytimg.com/vi/2-y2FbcPwvE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD0Ecoej19bsoVjuCiqenzA0GRoLQ",
+    "description": "Go Go Power Rangers! That song is stuck in my head. These were fun.",
+    "rating": 4.6
+  },
+  {
+    "id": 20,
+    "name": "Hot Wheels",
+    "cost": 20,
+    "img": "https://m.media-amazon.com/images/I/717vmR2p1OL.jpg",
+    "description": "Remember collecting Hot Wheels and racing with your friends on that mat? ",
+    "rating": 4.9
+  },
+  {
+    "id": 21,
+    "name": "Nintendo 64",
+    "cost": 50,
+    "img": "https://m.media-amazon.com/images/I/71IQ+4SxFrL.jpg",
+    "description": "This was the best console out there! Remember playing Super Mario 64 on this?",
+    "rating": 4.9
+  },
+  {
+    "id": 22,
+    "name": "Finger Lasers",
+    "cost": 2.99,
+    "img": "https://i.ebayimg.com/images/g/yiIAAOSwQMZdftmq/s-l1600.jpg",
+    "description": "Random 10Pcs X Laser Finger. The finger lights are great for parties for all ages. The elastic band ensures that one size fits all!",
+    "rating": 4.9
+  },
+  {
+    "id": 23,
+    "name": "Buzz Lightyear",
+    "cost": 32.99,
+    "img": "https://i.ebayimg.com/images/g/pGwAAOSw8HBZKiUF/s-l1600.jpg",
+    "description": "The Disney’s Toy Story Buzz Lightyear Ultimate Talking Edition 1st Edition is a highly sought-after collectible, especially among Toy Story fans. Released by Thinkway Toys in 1995, this figure features Buzz Lightyear with phrases from the movie, light-up details, and interactive functions. It includes iconic lines like “To Infinity and Beyond!” and “Buzz Lightyear to the Rescue!” voiced by Tim Allen.",
+    "rating": 4.6
+  },
+  {
+    "id": 24,
+    "name": "SPY GEAR Spy Watch",
+    "cost": 19.99,
+    "img": "https://i.ebayimg.com/images/g/OVYAAOSwAaVfst5P/s-l1200.webp",
+    "description": "Introducing the 2007 Wild Planet Spy Gear Ultimate Spy Watch – an 8-in-1 wrist gadget perfect for young secret agents. This multifunctional spy tool includes a timepiece, motion alarm, message capsules, magnifying lens, and more. New in its original packaging, it's ideal for kids aged 6 and up. Unleash your inner spy with this cutting-edge wrist gadget from Wild Planet.",
+    "rating": 3.2
+  },
+  {
+    "id": 25,
+    "name": "Chatter Phone",
+    "cost": 15.99,
+    "img": "https://m.media-amazon.com/images/I/51C2daBuleS.__AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "description": "With eyes that roll up and down, a mouth that chatters, and a dial that rings, preschoolers love to chat on the phone and this classic roll along pull-toy with a friendly face",
+    "rating": 4.8
+  },
+  {
+    "id": 26,
+    "name": "Light Up Gyro Wheel",
+    "cost": 3.99,
+    "img": "https://m.media-amazon.com/images/I/71c8tBTM6IL._AC_SX679_.jpg",
+    "description": "Retro Children's Light Gyroscope Wheel Serves as a Learning Tool in Classrooms and Homes, Perfect Choice for Gift Bags or Standalone Presents, Appreciated at Family and Classroom Gatherings, Traditional Component of Holiday Celebrations.",
+    "rating": 4.1
+  },
+  {
+    "id": 27,
+    "name": "Humming Tin Top Toy",
+    "cost": 11.99,
+    "img": "https://m.media-amazon.com/images/I/71bVOQxWcIL._AC_SX679_.jpg",
+    "description": "SUBTLE HUMMING TUNE: As it spins, Bolz Multi Color Spinning Top Toy makes a light humming melody that gets louder the faster it spins. PERFECT FOR ALL AGES: At 6-Inch tall and 6-Inch wide, it is the perfect size for the tiny hands of a toddler.",
+    "rating": 4.5
+  },
+  {
+    "id": 28,
+    "name": "Cymbals Chimp",
+    "cost": 24.99,
+    "img": "https://i.ebayimg.com/images/g/RjYAAOSwD6hfgH~6/s-l1600.webp",
+    "description": "Introducing the Naughtiness Cymbals Chimp – a playful monkey toy that claps cymbals, providing endless fun and laughter for kids. With its charming design and engaging antics, this lively toy is perfect for entertaining children and makes an ideal gift for birthdays and holidays. Add the Naughtiness Cymbals Chimp to your collection for hours of joy and excitement.",
+    "rating": 4.7
+  },
+  {
+    "id": 29,
+    "name": "Waterfall Ring Toss",
+    "cost": 4.99,
+    "img": "https://sensmagazine.com/rw/wp-content/uploads/sites/3/2024/05/RING-TOSS.png",
+    "description": "This handheld device had small colorful rings floating in the water that you could control and stack on the tiny poles underwater. Much harder than it sounds.",
+    "rating": 3.2
+  },
+  {
+    "id": 30,
+    "name": "Origami Collection",
+    "cost": 19.99,
+    "img": "https://m.media-amazon.com/images/I/51FGB7D6M2L._AC_UF1000,1000_QL80_.jpg",
+    "description": " Each of these beautiful creations is illustrated in full color with step-by-step instructions. Projects include a samurai helmet, piano, butterfly, and pelican.",
+    "rating": 4.7
+  },
+  {
+    "id": 31,
+    "name": "Lite Brite 700+Pcs",
+    "cost": 15.99,
+    "img": "https://i.ebayimg.com/images/g/opMAAOSwwo5kA8d7/s-l400.jpg",
+    "description": "Comes with the Lite Brite unit, approximately 700 pegs, 7 Jurassic Park sheets, 7 Wizard Creations sheets, 6 Scooby Doo Sheets, 10 other design sheets, and the instructions. Light bulb not included",
+    "rating": 4.8
+  },
+  {
+    "id": 32,
+    "name": "Pin Art 3D Impressions",
+    "cost": 15.99,
+    "img": "https://m.media-amazon.com/images/I/51SMPnhkhwL._AC_.jpg",
+    "description": "Simply press any shaped item against the pins and tilt to create the shape.",
+    "rating": 4.7
+  },
+  {
+    "id": 33,
+    "name": "Polly Pocket Playset",
+    "cost": 14.99,
+    "img": "https://i.etsystatic.com/12468921/r/il/c2f859/4003722999/il_fullxfull.4003722999_9qkh.jpg",
+    "description": "Polly pockets Stampin school set produced by Bluebird toys plc, 1992. Pink case with no discolouration. Includes working inkpad and 4 stamps. No dolls/figures included.",
+    "rating": 4.9
+  },
+  {
+    "id": 34,
+    "name": "Spiderman Educational Laptop",
+    "cost": 22.99,
+    "img": "https://i.ebayimg.com/images/g/CqsAAOSwhNdl8eSf/s-l1600.webp",
+    "description": "Helps kids learn letters, Rhymes and spelling..they can choose the options “Learn” or “Quiz”. Great learning tool for preschoolers",
+    "rating": 4.7
+  },
+  {
+    "id": 35,
+    "name": "48PCS Sticky Hands",
+    "cost": 5.99,
+    "img": "https://m.media-amazon.com/images/I/61u0GbnrixL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "description": "Not easy to tear or break, suitable for long time use as party favors for kids goodie bags, toddler party favors for kids 4-8. Kids will love tossing & flinging them on the ceiling, walls, windows, tables & virtually any surface, Bringing more fun during summer party favors, birthday party favors or easter egg fillers",
+    "rating": 3.8
+  },
+  {
+    "id": 36,
+    "name": "Speak & Spell Game",
+    "cost": 14.99,
+    "img": "https://m.media-amazon.com/images/I/81zN1fBpgsL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "description": "Relive the classic fun of the 80s with Speak & Spell! 5 Play Modes: Enjoy hours of educational fun with 5 Play Modes! Spell, Mystery, Say It, Secret Code, and Letter—which game will you play today?",
+    "rating": 3.2
+  },
+  {
+    "id": 37,
+    "name": "Vintage Barrel of Monkeys",
+    "cost": 9.99,
+    "img": "https://i.etsystatic.com/22471386/r/il/d63c69/5975199781/il_1588xN.5975199781_i6fq.jpg",
+    "description": "Vintage Barrel of Monkeys Game by Hasbro Bros 2003. This includes 13 monkeys and in excellent vintage condition.",
+    "rating": 4.9
+  },
+  {
+    "id": 38,
+    "name": "Lincoln Logs Meetinghouse",
+    "cost": 44.99,
+    "img": "https://m.media-amazon.com/images/I/81NKZkwsBDL._AC_SX679_.jpg",
+    "description": "ALL WOOD PARTS: All LINCOLN LOGS sets include meticulously crafted, beautifully stained real wood logs, which are manufactured in America to the strictest quality standards. COLLECTIBLE TIN: This set comes packaged in a collectible, re-usable tin, so clean-up and storage is a breeze!",
+    "rating": 4.6
+  },
+  {
+    "id": 39,
+    "name": "Classic Mad Libs",
+    "cost": 3.99,
+    "img": "https://i.etsystatic.com/18735340/r/il/9c52ae/2471942908/il_1588xN.2471942908_s6h5.jpg",
+    "description": "Players call out their ideas to fill in the blanks and in the end, you have a story reeling from one silly sentence to another until nothing makes sense. That's what you call a Mad Lib, the world's greatest word game. Players have been howling with friends or laughing all to themselves for over 35 years!",
+    "rating": 4.9
+  },
+  {
+    "id": 40,
+    "name": "64Pcs Crayons",
+    "cost": 9.99,
+    "img": "https://i.redd.it/mvebdid7rk741.jpg",
+    "description": "Tuck box keeps items neatly organized. Bright colors are permanent and waterproof. Quality material produces brilliant, even colors. Built In Crayon Sharpener. Flip Top Box - 64 Crayons Per Box - 1 Box.",
+    "rating": 4.4
+  },
+  {
+    "id": 41,
+    "name": "",
+    "cost": 1,
+    "img": "",
+    "description": "",
+    "rating": 4.7
+  },
+  {
+    "id": 42,
+    "name": "",
+    "cost": 1,
+    "img": "",
+    "description": "",
+    "rating": 4.7
+  },
+  {
+    "id": 43,
+    "name": "",
+    "cost": 1,
+    "img": "",
+    "description": "",
+    "rating": 4.7
+  },
+  {
+    "id": 44,
+    "name": "",
+    "cost": 1,
+    "img": "",
+    "description": "",
+    "rating": 4.7
+  },
+  {
+    "id": 45,
+    "name": "",
+    "cost": 1,
+    "img": "",
+    "description": "",
+    "rating": 4.7
+  }
+]
