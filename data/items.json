@@ -1,171 +1,171 @@
 [
   {
     "id": 1,
-    "name": "",
-    "cost": 1,
-    "img": "",
-    "description": "",
-    "rating": 4.7
+    "name": "Otter Pops",
+    "cost": 5.99,
+    "img": "https://i.redd.it/st0i5ese4x251.jpg",
+    "description": "On a hot summer day as a kid, these were always the best!",
+    "rating": 5
   },
   {
     "id": 2,
-    "name": "",
-    "cost": 1,
-    "img": "",
-    "description": "",
-    "rating": 4.7
+    "name": "BayBlades",
+    "cost": 32,
+    "img": "https://thetoyinsider.com/wp-content/uploads/2021/07/Beyblade_BurstProSet.jpg",
+    "description": "Have epic battles in the bayblade arena with your friends!",
+    "rating": 4.9
   },
   {
     "id": 3,
-    "name": "",
+    "name": "Pokemon Cards",
     "cost": 1,
-    "img": "",
-    "description": "",
-    "rating": 4.7
+    "img": "https://www.cratejoy.com/cdn/shop/products/A3OtDHBvQisnPpKmuHRm.jpg?v=1698174038",
+    "description": "Each pack contains 50 cards. Have epic battles with friends.",
+    "rating": 5
   },
   {
     "id": 4,
-    "name": "",
-    "cost": 1,
-    "img": "",
-    "description": "",
-    "rating": 4.7
+    "name": "The Game Boy",
+    "cost": 60,
+    "img": "https://o.aolcdn.com/images/dims?crop=1600%2C1067%2C0%2C0&quality=85&format=jpg&resize=1600%2C1067&image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2019-04%2F78769f20-62ea-11e9-aead-58faa9222d49&client=a1acac3e1b3290917d92&signature=6aaa3ca599b400be029fbf9798157cc9bcf11003",
+    "description": "Tons of fascinating action-packed adventures that fit inside of your pocket.",
+    "rating": 4.5
   },
   {
     "id": 5,
-    "name": "",
-    "cost": 1,
-    "img": "",
-    "description": "",
-    "rating": 4.7
+    "name": "Finger Flashlights",
+    "cost": 2.99,
+    "img": "https://m.media-amazon.com/images/I/41BPTCE1iOL.jpg",
+    "description": "Illuminate your world with the power of the Finger Flashlights.",
+    "rating": 4.8
   },
   {
     "id": 6,
-    "name": "",
-    "cost": 1,
-    "img": "",
-    "description": "",
+    "name": "Nintendo Wii",
+    "cost": 180,
+    "img": "https://m.media-amazon.com/images/I/71f3Ms9IBrL.jpg",
+    "description": "Play your all-time favorite games on this console.",
     "rating": 4.7
   },
   {
     "id": 7,
-    "name": "",
-    "cost": 1,
-    "img": "",
-    "description": "",
-    "rating": 4.7
+    "name": "Lego City Set",
+    "cost": 45,
+    "img": "https://images.stockx.com/images/LEGO-City-Capital-City-Set-60200.jpg?fit=fill&bg=FFFFFF&w=480&h=320&fm=webp&auto=compress&dpr=2&trim=color&updated_at=1646429136&q=60",
+    "description": "Lego city is in trouble and needs your help! Be the hero and buy this set.",
+    "rating": 4.6
   },
   {
     "id": 8,
-    "name": "",
-    "cost": 1,
-    "img": "",
-    "description": "",
+    "name": "Little Hugs",
+    "cost": 13,
+    "img": "https://external-preview.redd.it/tc7gK5qfVhoL9_eBDAq5Idj7kOdFya35qKpJ6I-Wq4Q.png?auto=webp&s=d7accdef8a132e1060b86ad0cdf3c16efe107667",
+    "description": "These were the best on a nice summer day, go inside te house and have a drink.",
     "rating": 4.7
   },
   {
     "id": 9,
-    "name": "",
-    "cost": 1,
-    "img": "",
-    "description": "",
-    "rating": 4.7
+    "name": "Play Mat",
+    "cost": 30,
+    "img": "https://www.boredpanda.com/blog/wp-content/uploads/2021/10/615ff0e016b7f_l5u5K-a_ED-q4rM0uKxX8AYhPbNNCtcjc_pCqfBIbOc__700.jpg",
+    "description": "Remember playing with your hotwheel cars on this mat? Us too.",
+    "rating": 5
   },
   {
     "id": 10,
-    "name": "",
-    "cost": 1,
-    "img": "",
-    "description": "",
-    "rating": 4.7
+    "name": "Kinder Egg",
+    "cost": 2,
+    "img": "https://imgix.ranker.com/list_img_v2/529/2660529/original/all-about-kinder-surprise-eggs?fit=crop&fm=pjpg&q=80&dpr=2&w=1200&h=720",
+    "description": "Best chocolate in the whole world! The toy in the middle was the awesome.",
+    "rating": 4.9
   },
   {
     "id": 11,
-    "name": "",
-    "cost": 1,
-    "img": "",
-    "description": "",
-    "rating": 4.7
+    "name": "Playstation PSP",
+    "cost": 110,
+    "img": "https://cdn.mos.cms.futurecdn.net/CenxhvdyExZxFzpxNYQQ3Q-1200-80.jpg",
+    "description": "Remember playing games like God Of War on this bad boy? It was the best.",
+    "rating": 4.6
   },
   {
     "id": 12,
-    "name": "",
-    "cost": 1,
-    "img": "",
-    "description": "",
-    "rating": 4.7
+    "name": "Silly Bandz",
+    "cost": 1.99,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/6/69/Silly_Bandz_2009.jpg",
+    "description": "Every single cool kid had a arm full of these back in the day.",
+    "rating": 4.4
   },
   {
     "id": 13,
-    "name": "",
-    "cost": 1,
-    "img": "",
-    "description": "",
-    "rating": 4.7
+    "name": "Razor Scooter",
+    "cost": 40,
+    "img": "https://www.twowheelingtots.com/wp-content/uploads/2020/05/Razor-A5-Action.jpg",
+    "description": "Riding outside on a nice summer day on one of these was so fun. Until it hits your ankle...",
+    "rating": 4.5
   },
   {
     "id": 14,
-    "name": "",
-    "cost": 1,
-    "img": "",
-    "description": "",
-    "rating": 4.7
+    "name": "Floppy Disk",
+    "cost": 3,
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/160308193141-gbs-floppy-disk.jpg?q=w_1920,h_1080,x_0,y_0,c_fill",
+    "description": "Remember watching all of your favorite movies and shows on one of these?",
+    "rating": 4.4
   },
   {
     "id": 15,
-    "name": "",
-    "cost": 1,
-    "img": "",
-    "description": "",
-    "rating": 4.7
+    "name": "Fruit Rollups",
+    "cost": 6.99,
+    "img": "https://hips.hearstapps.com/vidthumb/images/delish-watermelon-fruit-roll-ups-still002-1536587662.jpg",
+    "description": "One of the best childhood candies! Remember making a fake tongue from this?",
+    "rating": 4.9
   },
   {
     "id": 16,
-    "name": "",
-    "cost": 1,
-    "img": "",
-    "description": "",
-    "rating": 4.7
+    "name": "Nokia",
+    "cost": 25,
+    "img": "https://www.smartcompany.com.au/wp-content/uploads/2017/02/Nokia-3310.jpg?fit=680%2C334",
+    "description": "Better known as the most indestructable phone out there.. These were cool.",
+    "rating": 4.5
   },
   {
     "id": 17,
-    "name": "",
-    "cost": 1,
-    "img": "",
-    "description": "",
-    "rating": 4.7
+    "name": "Etch-A-Sketch",
+    "cost": 16,
+    "img": "https://i.ytimg.com/vi/HC2dUoMDwMk/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDrKUtmmIZeY3Kcyn6CIjDtuScHFw",
+    "description": "Remember using these as a kid and drawing a bunch of stick figures?",
+    "rating": 4.8
   },
   {
     "id": 18,
-    "name": "",
-    "cost": 1,
-    "img": "",
-    "description": "",
-    "rating": 4.7
+    "name": "DVD Player",
+    "cost": 30,
+    "img": "https://m.media-amazon.com/images/I/61Mie8CpqsL._AC_SL1200_.jpg",
+    "description": "Watching redbox or blockbuster movies on this thing was the best.",
+    "rating": 4.8
   },
   {
     "id": 19,
-    "name": "",
-    "cost": 1,
-    "img": "",
-    "description": "",
-    "rating": 4.7
+    "name": "Power Rangers",
+    "cost": 22,
+    "img": "https://i.ytimg.com/vi/2-y2FbcPwvE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD0Ecoej19bsoVjuCiqenzA0GRoLQ",
+    "description": "Go Go Power Rangers! That song is stuck in my head. These were fun.",
+    "rating": 4.6
   },
   {
     "id": 20,
-    "name": "",
-    "cost": 1,
-    "img": "",
-    "description": "",
-    "rating": 4.7
+    "name": "Hot Wheels",
+    "cost": 20,
+    "img": "https://m.media-amazon.com/images/I/717vmR2p1OL.jpg",
+    "description": "Remember collecting Hot Wheels and racing with your friends on that mat? ",
+    "rating": 4.9
   },
   {
     "id": 21,
-    "name": "",
-    "cost": 1,
-    "img": "",
-    "description": "",
-    "rating": 4.7
+    "name": "Nintendo 64",
+    "cost": 50,
+    "img": "https://m.media-amazon.com/images/I/71IQ+4SxFrL.jpg",
+    "description": "This was the best console out there! Remember playing Super Mario 64 on this?",
+    "rating": 4.9
   },
   {
     "id": 22,
