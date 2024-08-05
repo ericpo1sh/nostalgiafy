@@ -19,7 +19,6 @@ app.get("/",(req,res)=>{
 })
 
 // Schema for Products
-
 const Product = mongoose.model("Product",{
   id:{
     type: Number,
@@ -51,6 +50,7 @@ const Product = mongoose.model("Product",{
   }
 })
 
+// POST method for adding products
 app.post('/addproduct',async (req,res)=>{
   const product = new Product({
     id:req.body.id,
