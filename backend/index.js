@@ -18,6 +18,56 @@ app.get("/",(req,res)=>{
   res.send("Express App is Running")
 })
 
+// Schema for Products
+
+const Product = mongoose.model("Product",{
+  id:{
+    type: Number,
+    required:true,
+  },
+  name:{
+    type:String,
+    required:true,
+  },
+  cost:{
+    type:Number,
+    required:true,
+  },
+  img:{
+    type:String,
+    required:true,
+  },
+  description:{
+    type:String,
+    required:true,
+  },
+  rating:{
+    type:Number,
+    required:true,
+  },
+  available:{
+    type:Boolean,
+    default:true,
+  }
+})
+
+app.post('/addproduct',async (req,res)=>{
+  const product = new Product({
+    id:req.body.id,
+    name:req.body.name,
+    cost:req.body.cost,
+    img:req.body.img,
+    description:req.body.description,
+    rating:req.body.rating,
+  })
+  console.log(product);
+  await product.save();
+  console.log("Product Saved!");
+  res.json({
+    sucess:true,
+    name:req.body.name,
+  })
+})
 
 app.listen(port,(error)=>{
   if (!error) {
