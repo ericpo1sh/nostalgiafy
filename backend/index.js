@@ -6,6 +6,7 @@ const jwt = require("jsonwebtoken");
 const multer = require("multer");
 const path = require("path");
 const cors = require("cors");
+const { request } = require("http");
 
 app.use(express.json());
 app.use(cors());
@@ -20,38 +21,27 @@ app.get("/",(req,res)=>{
 
 // Schema for Products
 const Product = mongoose.model("Product",{
-  id:{
-    type: Number,
-    required:true,
-  },
-  name:{
-    type:String,
-    required:true,
-  },
-  cost:{
-    type:Number,
-    required:true,
-  },
-  img:{
-    type:String,
-    required:true,
-  },
-  description:{
-    type:String,
-    required:true,
-  },
-  rating:{
-    type:Number,
-    required:true,
-  },
-  available:{
-    type:Boolean,
-    default:true,
-  }
+  id: {type: Number, required: true},
+  name: {type: String, required: true},
+  cost: {type: Number, required: true},
+  img: {type: String, required: true},
+  description: {type: String, required: true},
+  rating: {type: Number, required: true},
+  available: {type: Boolean, default: true}
+})
+
+// schema for users
+
+const Users = mongoose.model('Users', {
+  name: {type: String},
+  email: {type: String, unique: true},
+  password: {type: String},
+  cartData: {type: Object},
+  date: {type: Date, defualt: Date.now}
 })
 
 // POST method for adding products
-app.post('/addproduct',async (req,res)=>{
+app.post('/addproduct', async (req,res)=>{
   const product = new Product({
     id:req.body.id,
     name:req.body.name,
@@ -69,12 +59,78 @@ app.post('/addproduct',async (req,res)=>{
   })
 })
 
-app.listen(port,(error)=>{
+// Route for removing products
+
+app.post('/removeproduct', async (req, res) => {
+  await Product.findOneAndDelete({id: req.body.id});
+  console.log('Product successfully removed');
+  res.json({
+    success: true,
+    name: req.body.name
+  });
+});
+
+// Route for retrieving all products
+
+app.get('/allproducts', async (req, res) => {
+  let products = await Product.find({});
+  console.log('All items have been fetched.')
+  res.send(products)
+})
+
+// Route for registering the user
+
+app.post('/signup', async (req, res) => {
+  let check = await Users.findOne({email: req.body.email})
+  if (check) {
+    return res.status(400).json({success: false, error: 'Existing user found with the same email.'});
+  };
+  let cart = {};
+  for (let i = 0; i < 300; i++) {
+    cart[i] = 0;
+  }
+  const user = new Users({
+    name: req.body.username,
+    email: req.body.email,
+    password: req.body.password,
+    cartData: req.body.cartData
+  })
+
+  await user.save();
+
+  const data = {
+    user: {id: user.id}
+  }
+
+  const token = jwt.sign(data, 'secret_nostalgiafy');
+  res.json({success: true, token})
+});
+
+// Route for logging in the user
+app.post('/login', async (req, res) => {
+  let user = await Users.findOne({email: req.body.email});
+  if (user) {
+    const comparePassword = req.body.password === user.password;
+    if (comparePassword) {
+      const data = { user: {id: user.id} }
+      const token = jwt.sign(data, 'secret_nostalgiafy');
+      res.json({success: true, token});
+    } else {
+      res.json({success: false, error: 'Incorrect password.'});
+    };
+  } else {
+    res.json({success: false, error: 'Incorrect or non-existing.'});
+  };
+})
+
+
+app.listen(port,(error) => {
   if (!error) {
-    console.log("Server Running on Port"+port)
+    console.log("Server Running on Port " + port)
   }
   else
   {
-    console.log("Error : "+error)
+    console.log("Error : " + error)
   }
 })
+
