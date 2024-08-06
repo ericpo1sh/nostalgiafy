@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  box-shadow: 0 1px 3px -2px black;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-family: outfit;
+  gap: 75px;
+  color: #323232;
+  font-size: 25px;
+  font-weight: 400;
+  margin-right: 15px;
+}
+
+.nav-menu li {
+  cursor: pointer;
+}
+
+.nav-menu li:hover {
+  transition: 0.3s;
+  transform: scale(1.2);
+  color: #94BE46;
+  font-weight: 500;
+}
