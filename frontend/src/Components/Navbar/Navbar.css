@@ -14,11 +14,15 @@
   color: #323232;
   font-size: 25px;
   font-weight: 400;
-  margin-right: 15px;
+  margin-right: 25px;
 }
 
 .nav-menu li {
+  display: flex;
   cursor: pointer;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .nav-menu li:hover {
