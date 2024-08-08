@@ -27,6 +27,7 @@ const Product = mongoose.model("Product",{
   img: {type: String, required: true},
   description: {type: String, required: true},
   rating: {type: Number, required: true},
+  rating_img: {type: String, required: true},
   available: {type: Boolean, default: true}
 })
 
