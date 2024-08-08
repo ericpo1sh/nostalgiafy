@@ -1,8 +1,11 @@
 import React from 'react'
+import StoreContainer from '../Components/StoreContainer/StoreContainer'
 
 const Store = () => {
   return (
-    <div>Store</div>
+    <div>
+      <StoreContainer/>
+    </div>
   )
 }
 
