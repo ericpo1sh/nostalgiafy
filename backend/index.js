@@ -123,6 +123,27 @@ app.post('/login', async (req, res) => {
   };
 })
 
+app.get('/paginatedItems', async (req, res) => {
+  const page = parseInt(req.query.page) || 1;
+  const limit = parseInt(req.query.limit) || 8;
+
+  try {
+    const items = await Product.find()
+      .skip((page - 1) * limit)
+      .limit(limit);
+
+    const totalItems = await Product.countDocuments();
+
+    res.json({
+      items,
+      totalItems,
+      totalPages: Math.ceil(totalItems / limit),
+      currentPage: page,
+    });
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+});
 
 app.listen(port,(error) => {
   if (!error) {
