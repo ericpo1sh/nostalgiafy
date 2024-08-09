@@ -112,7 +112,7 @@
     "name": "Razor Scooter",
     "cost": 39.99,
     "img": "https://www.twowheelingtots.com/wp-content/uploads/2020/05/Razor-A5-Action.jpg",
-    "description": "Riding outside on a nice summer day on one of these was so fun. Until it hits your ankle...",
+    "description": "Riding on a nice summer day with these was so fun. Until it hits your ankle...",
     "rating": 4.5,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/c/c6/4.5_stars.png?20240808184526"
   },
@@ -130,7 +130,7 @@
     "name": "Fruit Rollups",
     "cost": 6.99,
     "img": "https://hips.hearstapps.com/vidthumb/images/delish-watermelon-fruit-roll-ups-still002-1536587662.jpg",
-    "description": "One of the best childhood candies! Remember making a fake tongue from this?",
+    "description": "One of the best candies! Remember making a fake tongue from this?",
     "rating": 4.9,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/0/06/5_stars.png?20240808184521"
   },
@@ -175,7 +175,7 @@
     "name": "Hot Wheels",
     "cost": 19.99,
     "img": "https://m.media-amazon.com/images/I/717vmR2p1OL.jpg",
-    "description": "Remember collecting Hot Wheels and racing with your friends on that mat? ",
+    "description": "Remember collecting Hot Wheels and racing with your friends on that mat?",
     "rating": 4.9,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/0/06/5_stars.png?20240808184521"
   },
@@ -184,7 +184,7 @@
     "name": "Nintendo 64",
     "cost": 49.99,
     "img": "https://m.media-amazon.com/images/I/71IQ+4SxFrL.jpg",
-    "description": "This was the best console out there! Remember playing Super Mario 64 on this?",
+    "description": "This was the best console ever! Did you play Super Mario 64 on this?",
     "rating": 4.9,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/0/06/5_stars.png?20240808184521"
   },
@@ -202,7 +202,7 @@
     "name": "Buzz Lightyear",
     "cost": 32.99,
     "img": "https://i.ebayimg.com/images/g/pGwAAOSw8HBZKiUF/s-l1600.jpg",
-    "description": "Buzz Lightyear Ultimate Edition: Classic collectible with movie phrases. 'To Infinity and Beyond!'",
+    "description": "Buzz Lightyear Ultimate Collector Edition. 'To Infinity and Beyond!'",
     "rating": 4.6,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/c/c6/4.5_stars.png?20240808184526"
   },
@@ -211,7 +211,7 @@
     "name": "Spy Watch",
     "cost": 19.99,
     "img": "https://i.ebayimg.com/images/g/OVYAAOSwAaVfst5P/s-l1200.webp",
-    "description": "The ultimate gadget for young secret agents. Remember spying on you siblings?",
+    "description": "The ultimate gadget for spying on your siblings!",
     "rating": 3.2,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/c/c4/3_stars.png?20240808184521"
   },
@@ -220,7 +220,7 @@
     "name": "Chatter Phone",
     "cost": 15.99,
     "img": "https://m.media-amazon.com/images/I/51C2daBuleS.__AC_SY300_SX300_QL70_FMwebp_.jpg",
-    "description": "Rolling eyes, chattering mouth, and ringing dial. Remember those long phone calls with your imaginary friends?",
+    "description": "Remember those long phone calls with your imaginary friends?",
     "rating": 4.8,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/0/06/5_stars.png?20240808184521"
   },
@@ -229,7 +229,7 @@
     "name": "Gyro Wheel",
     "cost": 3.99,
     "img": "https://m.media-amazon.com/images/I/71c8tBTM6IL._AC_SX679_.jpg",
-    "description": "Retro Light Gyroscope: Great for learning and fun! Perfect for gifts or celebrations.",
+    "description": "Great for learning physics! Perfect for gifts or celebrations.",
     "rating": 4.1,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/9/94/4_stars.png?20240808184524"
   },
@@ -238,7 +238,7 @@
     "name": "Tin Top Toy",
     "cost": 11.99,
     "img": "https://m.media-amazon.com/images/I/71bVOQxWcIL._AC_SX679_.jpg",
-    "description": "Bolz Multi Color Spinning Top: Hum a tune as it spins faster. Perfect for all ages!",
+    "description": "Hum a tune as it spins faster. Perfect for all ages!",
     "rating": 4.5,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/c/c6/4.5_stars.png?20240808184526"
   },
@@ -247,7 +247,7 @@
     "name": "Cymbals Chimp",
     "cost": 24.99,
     "img": "https://media.istockphoto.com/id/147091146/photo/mechanical-chimp.jpg?s=612x612&w=0&k=20&c=8ucs_gKSSnPCxNDvGDNQ3YPuJKRNeA3Wef9_OMAdAXo=",
-    "description": "Naughtiness Cymbals Chimp: Playful monkey claps cymbals for endless fun and laughter.",
+    "description": "Playful monkey claps cymbals for endless fun and laughter.",
     "rating": 4.7,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/0/06/5_stars.png?20240808184521"
   },
@@ -256,7 +256,7 @@
     "name": "Ring Toss",
     "cost": 4.99,
     "img": "https://sensmagazine.com/rw/wp-content/uploads/sites/3/2024/05/RING-TOSS.png",
-    "description": "Water Ring Toss Game: Stack colorful rings on tiny poles. Surprisingly challenging and fun!",
+    "description": "Stack rings on tiny poles. Surprisingly challenging and fun!",
     "rating": 3.2,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/c/c4/3_stars.png?20240808184521"
   },
