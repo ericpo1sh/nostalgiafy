@@ -201,7 +201,7 @@
     "id": 23,
     "name": "Buzz Lightyear",
     "cost": 32.99,
-    "img": "https://i.ebayimg.com/images/g/pGwAAOSw8HBZKiUF/s-l1600.jpg",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Buzz_Lightyear_product_image.jpg/1600px-Buzz_Lightyear_product_image.jpg?20240809162649",
     "description": "Buzz Lightyear Ultimate Collector Edition. 'To Infinity and Beyond!'",
     "rating": 4.6,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/c/c6/4.5_stars.png?20240808184526"
@@ -237,7 +237,7 @@
     "id": 27,
     "name": "Tin Top Toy",
     "cost": 11.99,
-    "img": "https://m.media-amazon.com/images/I/71bVOQxWcIL._AC_SX679_.jpg",
+    "img": "https://i.ebayimg.com/images/g/yrwAAOSwmlRhO8vS/s-l400.jpg",
     "description": "Hum a tune as it spins faster. Perfect for all ages!",
     "rating": 4.5,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/c/c6/4.5_stars.png?20240808184526"
@@ -255,7 +255,7 @@
     "id": 29,
     "name": "Ring Toss",
     "cost": 4.99,
-    "img": "https://sensmagazine.com/rw/wp-content/uploads/sites/3/2024/05/RING-TOSS.png",
+    "img": "https://dma0ixu6zshxu.cloudfront.net/wp-content/uploads/20160801122115/WaterRingToss.jpg",
     "description": "Stack rings on tiny poles. Surprisingly challenging and fun!",
     "rating": 3.2,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/c/c4/3_stars.png?20240808184521"
@@ -264,7 +264,7 @@
     "id": 30,
     "name": "Origami Book",
     "cost": 19.99,
-    "img": "https://m.media-amazon.com/images/I/51FGB7D6M2L._AC_UF1000,1000_QL80_.jpg",
+    "img": "https://i5.walmartimages.com/seo/Fun-Easy-Origami-Kit-29-Original-Paper-Folding-Projects-Includes-Origami-Kit-with-2-Instruction-Books-98-Origami-Papers-Other-9780804847063_c83ba7e8-1fa9-452a-bc6f-26510ed4b940.f76ff11f2cb1f2fe44757c81277ed4e8.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
     "description": "Full-color, step-by-step guides for oragami. Don't get paper cuts!",
     "rating": 4.7,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/0/06/5_stars.png?20240808184521"
@@ -273,7 +273,7 @@
     "id": 31,
     "name": "Lite Brite",
     "cost": 15.99,
-    "img": "https://i.ebayimg.com/images/g/opMAAOSwwo5kA8d7/s-l400.jpg",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Lite_Brite_Product_Image.jpg/1600px-Lite_Brite_Product_Image.jpg?20240809163132",
     "description": "Relive childhood with 700 pegs and classic themed sheets. Pure nostalgia.",
     "rating": 4.8,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/0/06/5_stars.png?20240808184521"
@@ -327,7 +327,7 @@
     "id": 37,
     "name": "Barrel of Monkeys",
     "cost": 9.99,
-    "img": "https://i.etsystatic.com/22471386/r/il/d63c69/5975199781/il_1588xN.5975199781_i6fq.jpg",
+    "img": "https://www.thunderbaymuseum.com/wp-content/uploads/116425437_711606846069207_2379917801416017868_n.jpg",
     "description": "Includes 13 monkeys in excellent condition. Classic linking fun!",
     "rating": 4.9,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/0/06/5_stars.png?20240808184521"
@@ -345,7 +345,7 @@
     "id": 39,
     "name": "Mad Libs",
     "cost": 3.99,
-    "img": "https://i.etsystatic.com/18735340/r/il/9c52ae/2471942908/il_1588xN.2471942908_s6h5.jpg",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Mad_libs_product_image.jpg/1600px-Mad_libs_product_image.jpg?20240809162911",
     "description": "Remember the joy of creating hilarious, nonsensical stories with friends?",
     "rating": 4.9,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/0/06/5_stars.png?20240808184521"
