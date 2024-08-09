@@ -208,7 +208,7 @@
   },
   {
     "id": 24,
-    "name": "SPY GEAR Spy Watch",
+    "name": "Spy Watch",
     "cost": 19.99,
     "img": "https://i.ebayimg.com/images/g/OVYAAOSwAaVfst5P/s-l1200.webp",
     "description": "The ultimate gadget for young secret agents. Remember spying on you siblings?",
@@ -226,7 +226,7 @@
   },
   {
     "id": 26,
-    "name": "Light Up Gyro Wheel",
+    "name": "Gyro Wheel",
     "cost": 3.99,
     "img": "https://m.media-amazon.com/images/I/71c8tBTM6IL._AC_SX679_.jpg",
     "description": "Retro Light Gyroscope: Great for learning and fun! Perfect for gifts or celebrations.",
@@ -235,7 +235,7 @@
   },
   {
     "id": 27,
-    "name": "Humming Tin Top Toy",
+    "name": "Tin Top Toy",
     "cost": 11.99,
     "img": "https://m.media-amazon.com/images/I/71bVOQxWcIL._AC_SX679_.jpg",
     "description": "Bolz Multi Color Spinning Top: Hum a tune as it spins faster. Perfect for all ages!",
@@ -246,14 +246,14 @@
     "id": 28,
     "name": "Cymbals Chimp",
     "cost": 24.99,
-    "img": "https://i.ebayimg.com/images/g/RjYAAOSwD6hfgH~6/s-l1600.webp",
+    "img": "https://media.istockphoto.com/id/147091146/photo/mechanical-chimp.jpg?s=612x612&w=0&k=20&c=8ucs_gKSSnPCxNDvGDNQ3YPuJKRNeA3Wef9_OMAdAXo=",
     "description": "Naughtiness Cymbals Chimp: Playful monkey claps cymbals for endless fun and laughter.",
     "rating": 4.7,
-    "rating_img": "https://media.istockphoto.com/id/147091146/photo/mechanical-chimp.jpg?s=612x612&w=0&k=20&c=8ucs_gKSSnPCxNDvGDNQ3YPuJKRNeA3Wef9_OMAdAXo="
+    "rating_img": "https://upload.wikimedia.org/wikipedia/commons/0/06/5_stars.png?20240808184521"
   },
   {
     "id": 29,
-    "name": "Waterfall Ring Toss",
+    "name": "Ring Toss",
     "cost": 4.99,
     "img": "https://sensmagazine.com/rw/wp-content/uploads/sites/3/2024/05/RING-TOSS.png",
     "description": "Water Ring Toss Game: Stack colorful rings on tiny poles. Surprisingly challenging and fun!",
@@ -262,7 +262,7 @@
   },
   {
     "id": 30,
-    "name": "Origami Collection",
+    "name": "Origami Book",
     "cost": 19.99,
     "img": "https://m.media-amazon.com/images/I/51FGB7D6M2L._AC_UF1000,1000_QL80_.jpg",
     "description": "Full-color, step-by-step guides for oragami. Don't get paper cuts!",
@@ -271,7 +271,7 @@
   },
   {
     "id": 31,
-    "name": "Lite Brite 700+Pcs",
+    "name": "Lite Brite",
     "cost": 15.99,
     "img": "https://i.ebayimg.com/images/g/opMAAOSwwo5kA8d7/s-l400.jpg",
     "description": "Relive childhood with 700 pegs and classic themed sheets. Pure nostalgia.",
@@ -280,7 +280,7 @@
   },
   {
     "id": 32,
-    "name": "Pin Art 3D Impressions",
+    "name": "Pin Art",
     "cost": 15.99,
     "img": "https://m.media-amazon.com/images/I/51SMPnhkhwL._AC_.jpg",
     "description": "Simply press any shaped item against the pins. Don't poke your eyes!",
@@ -289,7 +289,7 @@
   },
   {
     "id": 33,
-    "name": "Polly Pocket Playset",
+    "name": "Polly Pocket",
     "cost": 14.99,
     "img": "https://i.etsystatic.com/12468921/r/il/c2f859/4003722999/il_fullxfull.4003722999_9qkh.jpg",
     "description": "Pink case, inkpad, and stamps. Classic Polly Pocket fun!",
@@ -298,7 +298,7 @@
   },
   {
     "id": 34,
-    "name": "Spiderman Educational Laptop",
+    "name": "Spiderman Laptop",
     "cost": 22.99,
     "img": "https://i.ebayimg.com/images/g/CqsAAOSwhNdl8eSf/s-l1600.webp",
     "description": "Learn spelling with SpiderMan. Everything is more fun with SpiderMan!",
@@ -307,7 +307,7 @@
   },
   {
     "id": 35,
-    "name": "48PCS Sticky Hands",
+    "name": "Sticky Hands",
     "cost": 5.99,
     "img": "https://m.media-amazon.com/images/I/61u0GbnrixL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
     "description": "Not easy to tear or break, perfect for smacking your siblings!",
@@ -316,7 +316,7 @@
   },
   {
     "id": 36,
-    "name": "Speak & Spell Game",
+    "name": "Speak & Spell",
     "cost": 14.99,
     "img": "https://m.media-amazon.com/images/I/81zN1fBpgsL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
     "description": "Includes 5 educational play modes. Except that's not how we ever used it...",
@@ -325,7 +325,7 @@
   },
   {
     "id": 37,
-    "name": "Vintage Barrel of Monkeys",
+    "name": "Barrel of Monkeys",
     "cost": 9.99,
     "img": "https://i.etsystatic.com/22471386/r/il/d63c69/5975199781/il_1588xN.5975199781_i6fq.jpg",
     "description": "Includes 13 monkeys in excellent condition. Classic linking fun!",
@@ -334,7 +334,7 @@
   },
   {
     "id": 38,
-    "name": "Lincoln Logs Meetinghouse",
+    "name": "Lincoln Logs",
     "cost": 44.99,
     "img": "https://m.media-amazon.com/images/I/81NKZkwsBDL._AC_SX679_.jpg",
     "description": "Real wood parts in a collectible tin for easy storage. Classic building fun!",
@@ -343,7 +343,7 @@
   },
   {
     "id": 39,
-    "name": "Classic Mad Libs",
+    "name": "Mad Libs",
     "cost": 3.99,
     "img": "https://i.etsystatic.com/18735340/r/il/9c52ae/2471942908/il_1588xN.2471942908_s6h5.jpg",
     "description": "Remember the joy of creating hilarious, nonsensical stories with friends?",
