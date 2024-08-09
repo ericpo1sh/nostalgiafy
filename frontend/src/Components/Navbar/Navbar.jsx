@@ -10,10 +10,10 @@ const Navbar = () => {
         <img src={logo_with_tagline} width={'400px'} height={'100px'}></img>
       </div>
       <div className='nav-menu'> 
-        <li><Link style={{textDecoration: 'none'}} to='/'>Store</Link></li>
-        <li><Link style={{textDecoration: 'none'}} to='/About'>About</Link></li>
-        <li><Link style={{textDecoration: 'none'}} to='/Checkout'>Checkout</Link></li>
-        <li><Link style={{textDecoration: 'none'}} to='/Login'>Login</Link></li>
+        <li><Link className='link' >Store</Link></li>
+        <li><Link className='link' to='/About'>About</Link></li>
+        <li><Link className='link' to='/Checkout'>Checkout</Link></li>
+        <li><Link className='link' to='/Login'>Login</Link></li>
       </div>
     </div>
   )

@@ -32,9 +32,12 @@ function StoreContainer() {
     <div className='main_container'>
         <button className='prev' onClick={handlePreviousPage} disabled={currentPage === 1}>
         <svg width="39" height="44" viewBox="0 0 39 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M35.9935 39.2909L5.97888 21.9958L35.9642 4.64993L35.9935 39.2909Z" fill="#94BE46" stroke="black" stroke-width="5"/>
+          <path d="M37.4957 41.8877L2.97888 21.9983L37.462 2.05059L37.4957 41.8877Z" fill="white" stroke="black" stroke-width="2"/>
         </svg>
         </button>
+      {/* <div>
+        <span>{` Page ${currentPage} of ${totalPages} `}</span>
+      </div> */}
       <div className='items_container'>
         {items.map((item) => (
           <div className='item_card' key={item.id}>
@@ -46,7 +49,7 @@ function StoreContainer() {
             <div className='bottom_container'>
               <div className='rating_container'>
                 <p>{item.rating}</p>
-                <img className='rating_img' src={item.rating_img} width={'120px'}></img>
+                <img className='rating_img' src={item.rating_img} width={'80px'}></img>
               </div>
               <div className='purchase_container'>
                 <div className='price'><p>${item.cost}</p></div>
@@ -58,7 +61,7 @@ function StoreContainer() {
       </div>
         <button className='next' onClick={handleNextPage} disabled={currentPage === totalPages}>
         <svg width="38" height="44" viewBox="0 0 38 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M3.00228 4.68986L33.0074 22.0015L3.01254 39.3309L3.00228 4.68986Z" fill="#94BE46" stroke="black" stroke-width="5"/>
+          <path d="M1.50151 2.09223L36.0074 22.0006L1.51331 41.9294L1.50151 2.09223Z" fill="white" stroke="#1E1E1E" stroke-width="2"/>
         </svg>
         </button>
     </div>
