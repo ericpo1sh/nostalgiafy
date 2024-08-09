@@ -11,9 +11,9 @@ const Navbar = () => {
       </div>
       <div className='nav-menu'> 
         <li><Link className='link' >Store</Link></li>
-        <li><Link className='link' style={{textDecoration: 'none'}} to='/About'>About</Link></li>
-        <li><Link className='link' style={{textDecoration: 'none'}} to='/Checkout'>Checkout</Link></li>
-        <li><Link className='link' style={{textDecoration: 'none'}} to='/Login'>Login</Link></li>
+        <li><Link className='link' to='/About'>About</Link></li>
+        <li><Link className='link' to='/Checkout'>Checkout</Link></li>
+        <li><Link className='link' to='/Login'>Login</Link></li>
       </div>
     </div>
   )

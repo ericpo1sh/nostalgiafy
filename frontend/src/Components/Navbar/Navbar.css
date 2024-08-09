@@ -13,7 +13,7 @@
   color: #323232;
   font-size: 25px;
   font-weight: 400;
-  margin-right: 25px;
+  margin-right: 10px;
 }
 
 .nav-menu li {
@@ -24,15 +24,17 @@
   align-items: center;
 }
 
-.nav-menu li:hover {
-  transition: 0.3s;
-  transform: scale(1.2);
-  color: #94BE46;
-  font-weight: 500;
-}
-
 .link {
   text-decoration: none !important;
+  color: #000000;
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+.link:hover {
   color: #94BE46;
+  transition: 0.3s;
   font-weight: 500;
+  transform: scale(1.2);
+
 }
