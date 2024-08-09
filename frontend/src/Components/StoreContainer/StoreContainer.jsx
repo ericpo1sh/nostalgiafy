@@ -35,9 +35,6 @@ function StoreContainer() {
           <path d="M35.9935 39.2909L5.97888 21.9958L35.9642 4.64993L35.9935 39.2909Z" fill="#94BE46" stroke="black" stroke-width="5"/>
         </svg>
         </button>
-      {/* <div>
-        <span>{` Page ${currentPage} of ${totalPages} `}</span>
-      </div> */}
       <div className='items_container'>
         {items.map((item) => (
           <div className='item_card' key={item.id}>
