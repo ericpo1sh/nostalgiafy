@@ -1,0 +1,136 @@
+.loginsignup {
+  width: 100%;
+  height: 80vh;
+  background-color: white;
+  padding-top: 5px;
+}
+
+.login_signup_container {
+  width: 580px;
+  height: 600px;
+  background: white;
+  margin: auto;
+  padding: 40px 60px;
+}
+
+.login_signup_container h1 {
+  margin: 20px 0px;
+}
+
+.login_signup_fields {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  margin-top: 30px;
+}
+
+.login_signup_fields input {
+  height: 72px;
+  width: 100%;
+  padding-left: 20px;
+  border: 1px solid #c9c9c9;
+  outline: none;
+  color: #5c5c5c;
+  font-size: 18px;
+}
+
+.login_signup_container button {
+  width: 603px;
+  height: 72px;
+  color: white;
+  background: #94BE46;
+  margin-top: 30px;
+  border: none;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login_signup_container button:hover {
+  background: #6b8a32;
+}
+
+.login_signup_login {
+  margin-top: 20px;
+  color: #5c5c5c;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.login_signup_login span {
+  color: #6b8a32;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login_signup_agree {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  color: 20px;
+  color: #5c5c5c;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media(max-width:1280px) {
+  .loginsignup {
+    padding-top: 50px;
+  }
+
+  .login_signup_container {
+    width: auto;
+    max-width: 500px;
+    max-height: 500px;
+  }
+
+  .login_signup_container h1 {
+    margin: 10px 0px;
+  }
+
+  .login_signup_fields {
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .login_signup_fields input {
+    height: 65px;
+    width: 93%;
+  }
+
+  .login_signup_container button {
+    width: 97.7%;
+  }
+
+  .login_signup_login {
+    font-size: 16px;
+  }
+
+  .login_signup_agree {
+    font-size: 14px;
+    gap: 10px;
+  }
+} 
+
+@media(max-width:800px) {
+  .login_signup_container {
+    padding: 20px 30px;
+  }
+
+  .login_signup_container h1 {
+    font-size: 24px;
+  }
+
+  .login_signup_fields {
+    margin-top: 20px;
+  }
+
+  .login_signup_fields input {
+    height: 50px;
+  }
+
+  .login_signup_container button {
+    height: 50px;
+    font-size: 16px;
+  }
+}
