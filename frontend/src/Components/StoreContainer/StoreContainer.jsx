@@ -1,10 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import './StoreContainer.css'
+import { ShopContext } from '../../Context/ShopContext';
 
 function StoreContainer() {
   const [items, setItems] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
+  const {addToCart} = useContext(ShopContext);
 
   useEffect(() => {
     fetch(`https://nostalgiafy.onrender.com/paginatedItems?page=${currentPage}&limit=8`)
@@ -53,7 +55,7 @@ function StoreContainer() {
               </div>
               <div className='purchase_container'>
                 <div className='price'><p>${item.cost}</p></div>
-                <div className='add_to_cart'><button>Add to cart</button></div>
+                <div className='add_to_cart'><button onClick={()=>{addToCart(item.id)}}>Add to cart</button></div>
               </div>
             </div>
           </div>
