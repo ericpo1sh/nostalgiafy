@@ -1,22 +1,42 @@
-import React, { createContext, useState } from 'react'
-import products from '../Components/Assets/products'
+import React, { createContext, useEffect, useState } from 'react'
 
 export const ShopContext = createContext(null);
 
 const getDefualtCart = () => {
   let cart = [];
-  for (let index = 0; index < products.length + 1; index++) {
+  for (let index = 0; index < 300 + 1; index++) {
     cart[index] = 0;
   };
   return cart;
 }
 
 const ShopContextProvider = (props) => {
+
+  const [products, setAllProducts] = useState('[]')
+
   const [cartItems, setCartItems] = useState(getDefualtCart())
+
+  useEffect(() => {
+    fetch('https://nostalgiafy.onrender.com/allproducts')
+    .then((response) => response.json())
+    .then((data) => setAllProducts(data))
+  },[])
 
   const addToCart = (itemId) => {
     setCartItems((prev)=>({...prev, [itemId]:prev[itemId] + 1}))
-    console.log(cartItems)
+    if (localStorage.getItem('auth-token')) {
+      fetch('https://nostalgiafy.onrender.com/addtocart', {
+        method: 'POST',
+        headers: {
+          Accept: 'application/form-data',
+          'auth-token': `${localStorage.getItem('auth-token')}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({'itemId': itemId})
+      })
+      .then((response) => response.json())
+      .then((data) => console.log(data));
+    }
   }
 
   const removeFromCart = (itemId) => {

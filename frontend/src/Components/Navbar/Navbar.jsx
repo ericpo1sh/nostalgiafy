@@ -13,7 +13,9 @@ const Navbar = () => {
         <li><Link className='link' to='/'>Store</Link></li>
         <li><Link className='link' to='/About'>About</Link></li>
         <li><Link className='link' to='/Checkout'>Checkout</Link></li>
-        <li><Link className='link' to='/Login'>Login</Link></li>
+        {localStorage.getItem('auth-token')
+        ?<li onClick={()=>{localStorage.removeItem('auth-token');window.location.replace('/')}}>Logout</li>
+        :<li><Link className='link' to='/Login'>Login</Link></li>}
       </div>
     </div>
   )
