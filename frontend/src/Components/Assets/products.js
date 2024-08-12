@@ -1,4 +1,4 @@
-const products = [
+[
   {
     "id": 1,
     "name": "Otter Pops",
@@ -201,7 +201,7 @@ const products = [
     "id": 23,
     "name": "Buzz Lightyear",
     "cost": 32.99,
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Buzz_Lightyear_product_image.jpg/1600px-Buzz_Lightyear_product_image.jpg?20240809162649",
+    "img": "https://i.imgur.com/2Lw0AE8_d.jpg?maxwidth=520&shape=thumb&fidelity=high",
     "description": "Buzz Lightyear Ultimate Collector Edition. 'To Infinity and Beyond!'",
     "rating": 4.6,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/c/c6/4.5_stars.png?20240808184526"
@@ -210,7 +210,7 @@ const products = [
     "id": 24,
     "name": "Spy Watch",
     "cost": 19.99,
-    "img": "https://i.ebayimg.com/images/g/OVYAAOSwAaVfst5P/s-l1200.webp",
+    "img": "https://i.imgur.com/0CIl2nZ_d.webp?maxwidth=1520&fidelity=grand",
     "description": "The ultimate gadget for spying on your siblings!",
     "rating": 3.2,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/c/c4/3_stars.png?20240808184521"
@@ -228,7 +228,7 @@ const products = [
     "id": 26,
     "name": "Gyro Wheel",
     "cost": 3.99,
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Light_up_gyro_wheel.jpg/1600px-Light_up_gyro_wheel.jpg?20240809162006",
+    "img": "https://i.imgur.com/WqfSvzu_d.jpg?maxwidth=520&shape=thumb&fidelity=high",
     "description": "Great for learning physics! Perfect for gifts or celebrations.",
     "rating": 4.1,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/9/94/4_stars.png?20240808184524"
@@ -264,7 +264,7 @@ const products = [
     "id": 30,
     "name": "Origami Book",
     "cost": 19.99,
-    "img": "https://i5.walmartimages.com/seo/Fun-Easy-Origami-Kit-29-Original-Paper-Folding-Projects-Includes-Origami-Kit-with-2-Instruction-Books-98-Origami-Papers-Other-9780804847063_c83ba7e8-1fa9-452a-bc6f-26510ed4b940.f76ff11f2cb1f2fe44757c81277ed4e8.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+    "img": "https://i.imgur.com/tZ1GzFF_d.jpg?maxwidth=520&shape=thumb&fidelity=high",
     "description": "Full-color, step-by-step guides for oragami. Don't get paper cuts!",
     "rating": 4.7,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/0/06/5_stars.png?20240808184521"
@@ -273,7 +273,7 @@ const products = [
     "id": 31,
     "name": "Lite Brite",
     "cost": 15.99,
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Lite_Brite_Product_Image.jpg/1600px-Lite_Brite_Product_Image.jpg?20240809163132",
+    "img": "https://i.imgur.com/y9tdOGp_d.jpg?maxwidth=520&shape=thumb&fidelity=high",
     "description": "Relive childhood with 700 pegs and classic themed sheets. Pure nostalgia.",
     "rating": 4.8,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/0/06/5_stars.png?20240808184521"
@@ -345,7 +345,7 @@ const products = [
     "id": 39,
     "name": "Mad Libs",
     "cost": 3.99,
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Mad_libs_product_image.jpg/1600px-Mad_libs_product_image.jpg?20240809162911",
+    "img": "https://i.imgur.com/kJixFyv_d.jpg?maxwidth=520&shape=thumb&fidelity=high",
     "description": "Remember the joy of creating hilarious, nonsensical stories with friends?",
     "rating": 4.9,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/0/06/5_stars.png?20240808184521"
@@ -359,6 +359,4 @@ const products = [
     "rating": 4.4,
     "rating_img": "https://upload.wikimedia.org/wikipedia/commons/c/c6/4.5_stars.png?20240808184526"
   }
-];
-
-export default products;
+]
