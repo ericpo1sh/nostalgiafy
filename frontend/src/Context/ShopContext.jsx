@@ -20,6 +20,19 @@ const ShopContextProvider = (props) => {
     fetch('https://nostalgiafy.onrender.com/allproducts')
     .then((response) => response.json())
     .then((data) => setAllProducts(data))
+
+    if (localStorage.getItem('auth-token')) {
+      fetch('https://nostalgiafy.onrender.com/getcart', {
+        method: 'POST',
+        headers: {
+          Accept: 'application/from-data',
+          'auth-token': `${localStorage.getItem('auth-token')}`,
+          'Content-Type': 'application/json',
+        },
+        body: '',
+      }).then((response) => response.json())
+      .then((data) => setCartItems(data));
+    }
   },[])
 
   const addToCart = (itemId) => {
@@ -40,7 +53,20 @@ const ShopContextProvider = (props) => {
   }
 
   const removeFromCart = (itemId) => {
-    setCartItems((prev)=>({...prev, [itemId]:prev[itemId] - 1}))
+    setCartItems((prev)=>({...prev, [itemId]:prev[itemId] - 1}));
+    if (localStorage.getItem('auth-token')) {
+      fetch('https://nostalgiafy.onrender.com/removefromcart', {
+        method: 'POST',
+        headers: {
+          Accept: 'application/form-data',
+          'auth-token': `${localStorage.getItem('auth-token')}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({'itemId': itemId})
+      })
+      .then((response) => response.json())
+      .then((data) => console.log(data));
+    }
   }
 
   const getTotalCartAmount = () => {
