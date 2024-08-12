@@ -87,14 +87,14 @@ app.post('/signup', async (req, res) => {
     return res.status(400).json({success: false, error: 'Existing user found with the same email.'});
   };
   let cart = {};
-  for (let i = 0; i < 300; i++) {
+  for (let i = 0; i < 100; i++) {
     cart[i] = 0;
   }
   const user = new Users({
     name: req.body.username,
     email: req.body.email,
     password: req.body.password,
-    cartData: req.body.cartData
+    cartData: cart,
   })
 
   await user.save();
@@ -169,6 +169,25 @@ app.post('/addtocart', fetchUser, async (req, res) => {
   userData.cartData[req.body.itemId] + 1;
   await Users.findOneAndUpdate({_id:req.user.id}, {cartData: userData.cartData});
   res.send('Added to cart')
+})
+
+// route for removing items from cart and updating user database
+
+app.post('/removefromcart', fetchUser, async (req, res) => {
+  let userData = await Users.findOne({_id:req.user.id});
+  if (userData.cartData[req.body.itemId] > 0) {
+    userData.cartData[req.body.itemId] -= 1;
+  }
+  await Users.findOneAndUpdate({_id:req.user.id}, {cartData: userData.cartData});
+  res.send('Removed from cart')
+})
+
+// route for save the cart data
+
+app.post('/getcart', fetchUser, async (req, res) => {
+  console.log("Get the cart");
+  let userData = await Users.findOne({_id:req.user.id});
+  res.json(userData.cartData);
 })
 
 app.listen(port,(error) => {
