@@ -21,18 +21,18 @@ const ShopContextProvider = (props) => {
     .then((response) => response.json())
     .then((data) => setAllProducts(data))
 
-    if (localStorage.getItem('auth-token')) {
-      fetch('https://nostalgiafy.onrender.com/getcart', {
-        method: 'POST',
-        headers: {
-          Accept: 'application/from-data',
-          'auth-token': `${localStorage.getItem('auth-token')}`,
-          'Content-Type': 'application/json',
-        },
-        body: '',
-      }).then((response) => response.json())
-      .then((data) => setCartItems(data));
-    }
+    // if (localStorage.getItem('auth-token')) {
+    //   fetch('https://nostalgiafy.onrender.com/getcart', {
+    //     method: 'POST',
+    //     headers: {
+    //       Accept: 'application/from-data',
+    //       'auth-token': `${localStorage.getItem('auth-token')}`,
+    //       'Content-Type': 'application/json',
+    //     },
+    //     body: '',
+    //   }).then((response) => response.json())
+    //   .then((data) => setCartItems(data));
+    // }
   },[])
 
   const addToCart = (itemId) => {
