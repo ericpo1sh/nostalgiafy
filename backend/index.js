@@ -164,33 +164,33 @@ app.get('/paginatedItems', async (req, res) => {
 
 // route for adding items into the cart and storing it in the users database
 
-app.post('/addtocart', fetchUser, async (req, res) => {
-  console.log(userData.cartData[req.body.itemId])
-  let userData = await Users.findOne({_id:req.user.id});
-  userData.cartData[req.body.itemId] + 1;
-  await Users.findOneAndUpdate({_id:req.user.id}, {cartData: userData.cartData});
-  res.send('Added to cart')
-})
+// app.post('/addtocart', fetchUser, async (req, res) => {
+//   let userData = await Users.findOne({_id: req.user.id});
+//   console.log(userData.cartData[req.body.itemId])
+//   userData.cartData[req.body.itemId] + 1;
+//   await Users.findOneAndUpdate({_id:req.user.id}, {cartData: userData.cartData});
+//   res.send('Added to cart')
+// })
 
-// route for removing items from cart and updating user database
+// // route for removing items from cart and updating user database
 
-app.post('/removefromcart', fetchUser, async (req, res) => {
-  console.log(userData.cartData[req.body.itemId])
-  let userData = await Users.findOne({_id:req.user.id});
-  if (userData.cartData[req.body.itemId] > 0) {
-    userData.cartData[req.body.itemId] -= 1;
-  }
-  await Users.findOneAndUpdate({_id:req.user.id}, {cartData: userData.cartData});
-  res.send('Removed from cart')
-})
+// app.post('/removefromcart', fetchUser, async (req, res) => {
+//   let userData = await Users.findOne({_id:req.user.id});
+//   console.log(userData.cartData[req.body.itemId])
+//   if (userData.cartData[req.body.itemId] > 0) {
+//     userData.cartData[req.body.itemId] -= 1;
+//   }
+//   await Users.findOneAndUpdate({_id:req.user.id}, {cartData: userData.cartData});
+//   res.send('Removed from cart')
+// })
 
-// route for save the cart data
+// // route for save the cart data
 
-app.post('/getcart', fetchUser, async (req, res) => {
-  console.log("Get the cart");
-  let userData = await Users.findOne({_id:req.user.id});
-  res.json(userData.cartData);
-})
+// app.post('/getcart', fetchUser, async (req, res) => {
+//   console.log("Get the cart");
+//   let userData = await Users.findOne({_id:req.user.id});
+//   res.json(userData.cartData);
+// })
 
 app.listen(port,(error) => {
   if (!error) {
