@@ -4,13 +4,13 @@ Welcome to **Nostalgia-fy** - an online store that brings back the treasures of 
 
 ## Table of Contents
 
-- Project Overview
-- Features
-- Technologies Used
-- Usage
-- Contributing
-- License
-- Contact
+- [Project Overview](#project-overview)
+- [Features](#Features)
+- [Technologies Used](#Technologies-used)
+- [Usage](#Usage)
+- [Contributing](#Contributing)
+- [License](#License)
+- [Contact](#Contact)
 
 ## Project Overview
 
