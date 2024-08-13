@@ -1,4 +1,5 @@
 # Nostalgiafy
+![alt text](frontend/src/Components/Assets/nostalgiafy.png)
 
 Welcome to **Nostalgiafy** - an online store that brings back the treasures of your childhood! This project is a Shopify clone focused on nostalgic childhood items, created by Eric Dzyk and Puzzle Moser as the final 2-week project for Trimester 4 at Atlas School.
 
