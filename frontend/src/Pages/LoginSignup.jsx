@@ -29,7 +29,7 @@ const LoginSignup = () => {
 
     if (responseData.success) {
       localStorage.setItem('auth-token', responseData.token)
-      window.location.replace('/nostalgiafy');
+      window.location.replace('/');
     } else {
       alert(responseData.error)
     }
@@ -49,7 +49,7 @@ const LoginSignup = () => {
 
     if (responseData.success) {
       localStorage.setItem('auth-token', responseData.token)
-      window.location.replace('/nostalgiafy');
+      window.location.replace('/');
     } else {
       alert(responseData.error)
     }
