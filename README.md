@@ -10,7 +10,6 @@ Welcome to **Nostalgiafy** - an online store that brings back the treasures of y
 - [Usage](#Usage)
 - [Contributing](#Contributing)
 - [Development Timeline](#Development-Timeline)
-- [License](#License)
 - [Contact](#Contact)
 
 ## Project Overview
@@ -18,6 +17,18 @@ Welcome to **Nostalgiafy** - an online store that brings back the treasures of y
 Nostalgiafy is an e-commerce platform designed to mimic the functionality of Shopify, but with a unique focus on items that remind users of their childhood. Whether it's toys, games, or vintage collectibles, Nostalgiafy offers a curated selection of nostalgic products that transport users back in time.
 
 This project was developed as a part of a school assignment to explore full-stack development, user authentication, and database management.
+
+## A quick view of our website
+### Store page where users can browse through items and add them to cart.
+![Screenshot 2024-08-13 133808](https://github.com/user-attachments/assets/9a75997e-b58b-417a-810b-22be4d353b14)
+### Checkout page where users can view their cart, remove items, and checkout.
+![Screenshot 2024-08-13 134000](https://github.com/user-attachments/assets/fc6a748c-6ef9-491c-aea5-2d6c27aaa549)
+![Screenshot 2024-08-13 134016](https://github.com/user-attachments/assets/11ed4e0b-1573-4721-bc1e-c3cb7a3dff95)
+### Sign in/up page, where users can create or login to their accounts.
+![Screenshot 2024-08-13 134051](https://github.com/user-attachments/assets/713a5d09-2735-402a-a405-830aa0bc7c7b)
+![Screenshot 2024-08-13 134035](https://github.com/user-attachments/assets/c54e1ce1-1c4a-4f33-a0ca-0fc6c33635f1)
+### About page, where users can admire and learn more info about the creators.
+![Screenshot 2024-08-13 134111](https://github.com/user-attachments/assets/cdc8d893-d5ef-4cea-8daa-512609246837)
 
 ## Features
 
@@ -30,12 +41,12 @@ This project was developed as a part of a school assignment to explore full-stac
 
 ## Technologies Used
 
-- **Frontend**: React, Redux, Styled-components
+- **Frontend**: HTML, CSS, React, JSX
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Authentication**: JWT (JSON Web Tokens)
-- **Payment Gateway**: Stripe API
-- **Hosting**: Heroku / Vercel
+- **Payment Gateway**: None
+- **Hosting**: Onrender
 - **Version Control**: GitHub
 
 ## Usage
@@ -93,10 +104,6 @@ Contributions are welcome! If you have suggestions or find a bug, feel free to o
 <!-- **Images to Include:** Photo or screenshot of the presentation, team photo or project wrap-up celebration. -->
 
 ---
-
-## License
-
-This project is licensed under the MIT License.
 
 ## Contact
 
