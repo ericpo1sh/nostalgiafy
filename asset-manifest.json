@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/nostalgiafy/static/css/main.0cf40049.css",
-    "main.js": "/nostalgiafy/static/js/main.0a9318de.js",
-    "static/media/eric.jpg": "/nostalgiafy/static/media/eric.01f38cb14c4acaebfc90.jpg",
-    "static/media/puzzle.jpg": "/nostalgiafy/static/media/puzzle.3881c1edfaaec320d526.jpg",
-    "static/media/nostalgiafy_with_tagline.png": "/nostalgiafy/static/media/nostalgiafy_with_tagline.9096d2d001fb88cd180d.png",
-    "static/media/linkedinlogo.webp": "/nostalgiafy/static/media/linkedinlogo.3d18ab9dd8c0f0d1f4b1.webp",
-    "index.html": "/nostalgiafy/index.html",
-    "main.0cf40049.css.map": "/nostalgiafy/static/css/main.0cf40049.css.map",
-    "main.0a9318de.js.map": "/nostalgiafy/static/js/main.0a9318de.js.map"
+    "main.css": "/static/css/main.0cf40049.css",
+    "main.js": "/static/js/main.ff0de5f8.js",
+    "static/media/eric.jpg": "/static/media/eric.01f38cb14c4acaebfc90.jpg",
+    "static/media/puzzle.jpg": "/static/media/puzzle.3881c1edfaaec320d526.jpg",
+    "static/media/nostalgiafy_with_tagline.png": "/static/media/nostalgiafy_with_tagline.9096d2d001fb88cd180d.png",
+    "static/media/linkedinlogo.webp": "/static/media/linkedinlogo.3d18ab9dd8c0f0d1f4b1.webp",
+    "index.html": "/index.html",
+    "main.0cf40049.css.map": "/static/css/main.0cf40049.css.map",
+    "main.ff0de5f8.js.map": "/static/js/main.ff0de5f8.js.map"
   },
   "entrypoints": [
     "static/css/main.0cf40049.css",
-    "static/js/main.0a9318de.js"
+    "static/js/main.ff0de5f8.js"
   ]
 }
