@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/nostalgiafy/static/css/main.4673c446.css",
-    "main.js": "/nostalgiafy/static/js/main.c39006ed.js",
+    "main.js": "/nostalgiafy/static/js/main.a516b85e.js",
     "static/media/eric.jpg": "/nostalgiafy/static/media/eric.01f38cb14c4acaebfc90.jpg",
     "static/media/puzzle.jpg": "/nostalgiafy/static/media/puzzle.3881c1edfaaec320d526.jpg",
     "static/media/nostalgiafy_with_tagline.png": "/nostalgiafy/static/media/nostalgiafy_with_tagline.9096d2d001fb88cd180d.png",
     "static/media/linkedinlogo.webp": "/nostalgiafy/static/media/linkedinlogo.3d18ab9dd8c0f0d1f4b1.webp",
     "index.html": "/nostalgiafy/index.html",
     "main.4673c446.css.map": "/nostalgiafy/static/css/main.4673c446.css.map",
-    "main.c39006ed.js.map": "/nostalgiafy/static/js/main.c39006ed.js.map"
+    "main.a516b85e.js.map": "/nostalgiafy/static/js/main.a516b85e.js.map"
   },
   "entrypoints": [
     "static/css/main.4673c446.css",
-    "static/js/main.c39006ed.js"
+    "static/js/main.a516b85e.js"
   ]
 }
