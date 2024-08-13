@@ -62,35 +62,35 @@ Contributions are welcome! If you have suggestions or find a bug, feel free to o
 
 ### Sunday, August 4th: Mockup and Prototype
 * Finished designing the mockup and prototype for the project and created initial data in JSON format to be used in the project.
-/* * **Images to Include:** Screenshots of the mockup and prototype, example JSON data file. */
+<!-- **Images to Include:** Screenshots of the mockup and prototype, example JSON data file. -->
 
 ### Monday, August 5th: Backend Setup
 * Set up MongoDB database and started development of the API.
-/* * **Images to Include:** Screenshot of MongoDB database structure, code snippets of initial API routes. */
+<!-- **Images to Include:** Screenshot of MongoDB database structure, code snippets of initial API routes. -->
 
 ### Tuesday, August 6th - Thursday, August 8th: Frontend and API Integration
 * Completed API development and started working on the frontend. Finished the frontend design for the main store page and successfully integrated API communication with the frontend.
-/* * **Images to Include:** Screenshot of API routes or Postman test results, initial frontend component design, screenshot of the main store page UI, diagram or flowchart of API and frontend communication. */
+<!-- **Images to Include:** Screenshot of API routes or Postman test results, initial frontend component design, screenshot of the main store page UI, diagram or flowchart of API and frontend communication. -->
 
 ### Friday, August 9th: User and Checkout Implementation
 * Created login and checkout pages on the frontend and hosted the backend server on a remote service.
-/* **Images to Include:** Screenshot of the login and checkout pages, image showing the server hosted remotely. */
+<!-- **Images to Include:** Screenshot of the login and checkout pages, image showing the server hosted remotely. -->
 
 ### Saturday, August 10th - Sunday, August 11th: User Data and Cart Integration
 * Created API endpoints for user information and attempted to store shopping cart data within user profiles. Continued developing the integration between cart data and user profiles.
-/* **Images to Include:** Code snippets of API endpoints, diagram of the cart data storage attempt, flowchart of the cart and user data integration process. */
+<!-- **Images to Include:** Code snippets of API endpoints, diagram of the cart data storage attempt, flowchart of the cart and user data integration process. -->
 
 ### Monday, August 12th - Tuesday, August 13th: Admin Page Development
 * Developed and finalized the Admin page for managing the store. Decided to drop the issue of storing cart data in user profiles for now.
-/* **Images to Include:** Screenshot of the Admin page interface, diagram showing the decision-making process regarding cart data. */
+<!-- **Images to Include:** Screenshot of the Admin page interface, diagram showing the decision-making process regarding cart data. -->
 
 ### Wednesday, August 14th: Final Preparations
 * Completed the presentation slides, practiced the presentation, finalized deployment, and ensured the site was free of major bugs.
-/* **Images to Include:** Screenshot of the final deployed website, photo of the presentation slides. */
+<!-- **Images to Include:** Screenshot of the final deployed website, photo of the presentation slides. -->
 
 ### Thursday, August 15th: Final Presentation
 * Delivered the final project presentation.
-/* **Images to Include:** Photo or screenshot of the presentation, team photo or project wrap-up celebration. */
+<!-- **Images to Include:** Photo or screenshot of the presentation, team photo or project wrap-up celebration. -->
 
 ---
 
