@@ -100,7 +100,8 @@
 .socials {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 20px;
 }
 
 .socials a:hover {
