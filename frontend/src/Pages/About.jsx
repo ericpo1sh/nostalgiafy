@@ -19,8 +19,8 @@ const About = () => {
           <p className='connect'>Connect with me!</p>
           <div className='socials'>
             <a href='https://www.linkedin.com/in/ericdzyk'><img className='linkedin' alt='' src={linkedin_logo} width={'35px'} height={'35px'}></img></a>
-            <a href='https://github.com/ericpo1sh'><img className='github' alt='' src={github_logo} width={'35px'} height={'35px'}></img></a>
             <a href='mailto:ericpo1sh@gmail.com'><img className='mail' alt='' src={mail_icon} width={'35px'} height={'35px'}></img></a>
+            <a href='https://github.com/ericpo1sh'><img className='github' alt='' src={github_logo} width={'35px'} height={'35px'}></img></a>
           </div>
           <a className='website' href='http://ericdzyk.com'>Visit my website</a>
           <div className='ratings'><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/5_stars.png?20240808184521" width={'100px'}></img></div>
@@ -38,8 +38,8 @@ const About = () => {
           <p className='connect'>Connect with me!</p>
           <div className='socials'>
             <a href='https://www.linkedin.com/in/puzzlemoser/'><img className='linkedin' alt='' src={linkedin_logo} width={'35px'} height={'35px'}></img></a>
-            <a href='https://github.com/PuzzleEmptyM'><img className='github' alt='' src={github_logo} width={'35px'} height={'35px'}></img></a>
             <a href='mailto:EmptyMPuzzle@gmail.com'><img className='mail' alt='' src={mail_icon} width={'35px'} height={'35px'}></img></a>
+            <a href='https://github.com/PuzzleEmptyM'><img className='github' alt='' src={github_logo} width={'35px'} height={'35px'}></img></a>
           </div>
           <a className='website' href='https://hirepuzzle.com'>Visit my website</a>
           <div className='ratings'><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/5_stars.png?20240808184521" width={'100px'}></img></div>
