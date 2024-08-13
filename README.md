@@ -1,6 +1,6 @@
-# Nostalgia-fy
+# Nostalgiafy
 
-Welcome to **Nostalgia-fy** - an online store that brings back the treasures of your childhood! This project is a Shopify clone focused on nostalgic childhood items, created by Eric Dzyk and Puzzle Moser as the final 2-week project for Trimester 4 at Atlas School.
+Welcome to **Nostalgiafy** - an online store that brings back the treasures of your childhood! This project is a Shopify clone focused on nostalgic childhood items, created by Eric Dzyk and Puzzle Moser as the final 2-week project for Trimester 4 at Atlas School.
 
 ## Table of Contents
 
@@ -9,12 +9,13 @@ Welcome to **Nostalgia-fy** - an online store that brings back the treasures of 
 - [Technologies Used](#Technologies-used)
 - [Usage](#Usage)
 - [Contributing](#Contributing)
+- [Development Timeline](#Development-Timeline)
 - [License](#License)
 - [Contact](#Contact)
 
 ## Project Overview
 
-Nostalgia-fy is an e-commerce platform designed to mimic the functionality of Shopify, but with a unique focus on items that remind users of their childhood. Whether it's toys, games, or vintage collectibles, Nostalgia-fy offers a curated selection of nostalgic products that transport users back in time.
+Nostalgiafy is an e-commerce platform designed to mimic the functionality of Shopify, but with a unique focus on items that remind users of their childhood. Whether it's toys, games, or vintage collectibles, Nostalgiafy offers a curated selection of nostalgic products that transport users back in time.
 
 This project was developed as a part of a school assignment to explore full-stack development, user authentication, and database management.
 
@@ -55,6 +56,60 @@ Contributions are welcome! If you have suggestions or find a bug, feel free to o
 4. Push to the branch <!-- (git push origin feature-branch) -->
 5. Open a pull request
 
+---
+
+## Development Timeline
+
+### Sunday, August 4th: Mockup and Prototype
+* Finished designing the mockup and prototype for the project and created initial data in JSON format to be used in the project.
+* **Images to Include:** Screenshots of the mockup and prototype, example JSON data file.
+
+### Monday, August 5th: Backend Setup
+* Set up the MongoDB database and started developing the API.
+* **Images to Include:** Screenshot of MongoDB database structure, code snippets of initial API routes.
+
+### Tuesday, August 6th: API Completion and Frontend Kickoff
+* Completed API development and started working on the front-end.
+* **Images to Include:** Screenshot of API routes or Postman test results, initial frontend component design.
+
+### Wednesday, August 7th: Frontend and API Integration
+* Completed the frontend design for the main store page and successfully integrated API communication with the frontend.
+* **Images to Include:** Screenshot of the main store page UI, diagram, or flowchart of API and frontend communication.
+
+### Thursday, August 8th: Development Pause
+* No significant development milestones were achieved this day, just some general updates to front end and API communication.
+* **Images to Include:** *N/A*
+
+### Friday, August 9th: User and Checkout Implementation
+* Created login and checkout pages on the front-end and hosted the back-end server on a remote service.
+* **Images to Include:** Screenshot of the login and checkout pages, image showing the server hosted remotely.
+
+### Saturday, August 10th: User Data and Cart Integration
+* Created API endpoints for user information and attempted to store shopping cart data within user profiles.
+* **Images to Include:** Code snippets of API endpoints, diagram of the cart data storage attempt.
+
+### Sunday, August 11th: Continued Work on Cart Integration
+* Further developed the integration between cart data and user profiles.
+* **Images to Include:** Diagram or flowchart of the cart and user data integration process.
+
+### Monday, August 12th: Admin Page Creation
+* Developed the Admin page for managing the store.
+* **Images to Include:** Screenshot of the Admin page interface.
+
+### Tuesday, August 13th: Admin Page Completion and Decision on Cart Data
+* Finalized the Admin page and decided to drop the issue of storing cart data in user profiles for now.
+* **Images to Include:** Screenshot of the completed Admin page, diagram showing the decision-making process regarding cart data.
+
+### Wednesday, August 14th: Final Preparations
+* Completed the presentation slides, practiced the presentation, finalized deployment, and ensured the site was free of major bugs.
+* **Images to Include:** Screenshot of the final deployed website, photo of the presentation slides.
+
+### Thursday, August 15th: Final Presentation
+* Delivered the final project presentation.
+* **Images to Include:** Photo or screenshot of the presentation, team photo or project wrap-up celebration.
+
+---
+
 ## License
 
 This project is licensed under the MIT License.
@@ -69,4 +124,4 @@ Connect with us on LinkedIn or follow our Githubs!
 
 ---
 
-Thank you for visiting Nostalgia-fy! We hope you enjoy your trip down memory lane.
+Thank you for visiting Nostalgiafy! We hope you enjoy your trip down memory lane.
