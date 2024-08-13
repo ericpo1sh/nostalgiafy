@@ -14,7 +14,7 @@ const Navbar = () => {
         <li><Link className='link' to='/nostalgiafy/About'>About</Link></li>
         <li><Link className='link' to='/nostalgiafy/Checkout'>Checkout</Link></li>
         {localStorage.getItem('auth-token')
-        ?<li onClick={()=>{localStorage.removeItem('auth-token');window.location.replace('/')}}>Logout</li>
+        ?<li onClick={()=>{localStorage.removeItem('auth-token');window.location.replace('/nostalgiafy')}}>Logout</li>
         :<li><Link className='link' to='/nostalgiafy/Login'>Login</Link></li>}
       </div>
     </div>
