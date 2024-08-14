@@ -19,17 +19,22 @@ app.get("/",(req,res)=>{
   res.send("Express App is Running")
 })
 
-// Schema for Products
-const Product = mongoose.model("Product",{
-  id: {type: Number, required: true},
-  name: {type: String, required: true},
-  cost: {type: Number, required: true},
-  img: {type: String, required: true},
-  description: {type: String, required: true},
-  rating: {type: Number, required: true},
-  rating_img: {type: String, required: true},
-  available: {type: Boolean, default: true}
-})
+const AutoIncrement = require('mongoose-sequence')(mongoose);
+
+const productSchema = new mongoose.Schema({
+  id: { type: Number },
+  name: { type: String, required: true },
+  cost: { type: Number, required: true },
+  img: { type: String, required: true },
+  description: { type: String, required: true },
+  rating: { type: Number, required: false },
+  rating_img: { type: String, required: false },
+  available: { type: Boolean, default: true }
+});
+
+productSchema.plugin(AutoIncrement, { inc_field: 'id' });
+const Product = mongoose.model('Product', productSchema);
+module.exports = Product;
 
 // schema for users
 
