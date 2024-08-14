@@ -58,7 +58,7 @@
     right: 30px;
     cursor: pointer;
     margin-top: 1.7rem;
-    z-index: 99;
+    z-index: 9;
   }
 
   .nav-mob-close {
@@ -67,6 +67,7 @@
     cursor: pointer;
     margin-left: 7rem;
     margin-top: 0.5rem;
+    z-index: 10;
   }
 
   .nav-menu {
@@ -86,6 +87,7 @@
     border-bottom-right-radius: 30px;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
+    z-index: 10;
   }
 
   .nav-menu li {
@@ -93,6 +95,7 @@
     flex-direction: row;
     gap: 20px;
     margin-top: -1.2rem;
+    z-index: 10;
   }
 }
 
