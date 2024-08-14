@@ -9,10 +9,7 @@ const cors = require("cors");
 const { request } = require("http");
 
 app.use(express.json());
-app.use(cors({
-  origin: 'http://127.0.0.1:5173', // Add more frontend URLs when needed (esp for Eric)
-  methods: ['GET', 'POST'],
-}));
+app.use(cors());
 
 // Database Connection with Mongo
 mongoose.connect("mongodb+srv://michaelmoser:mSSsB2RFPxQqDCDc@graphql-cluster.yoqsz5r.mongodb.net/nostalgiafy");
