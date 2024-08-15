@@ -16,6 +16,18 @@ const ListProduct = () => {
     fetchInfo();
   },[])
 
+  const remove_product = async (id)=>{
+    await fetch('https://nostalgiafy.onrender.com/removeproduct',{
+      method:'POST',
+      headers:{
+        Accept: 'application/json',
+        'Content-Type':'application/json',
+      },
+      body:JSON.stringify({id:id})
+    })
+    await fetchInfo();
+  }
+
   return (
     <div className='list-product'>
       <h1>List of All Products</h1>
@@ -39,7 +51,7 @@ const ListProduct = () => {
             <p>${product.cost}</p>
             <p>{product.rating}</p>
             <p>{product.rating_img}</p>
-            <img className="listproduct-remove-icon" src={cross_icon} alt="" />
+            <img onClick={()=>{remove_product(product.id)}} className="listproduct-remove-icon" src={cross_icon} alt="" />
           </div>
           <hr />
           </>
