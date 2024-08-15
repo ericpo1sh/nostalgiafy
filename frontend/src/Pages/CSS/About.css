@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.about-container {
+  display: flex;
+  background: #dcded5;
+  border-radius: 10px;
+  margin-top: -0.9rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1920px;
+}
+
+.people-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 2rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media(max-width:800px) {
+  .about-container {
+    display: flex;
+    background: #dcded5;
+    border-radius: 10px;
+    margin-top: -0.3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 800px;
+  }
+  
+  .people-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 5rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+.eric-container {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0px 0px 30px 10px #34333370;
+  transition: 0.6s;
+}
+
+.puzzle-container {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0px 0px 30px 10px #34333370;
+  transition: 0.6s;
+}
+
+.eric-container:hover {
+  transform: scale(1.05);
+  transition: 0.6s;
+}
+
+.puzzle-container:hover {
+  transform: scale(1.05);
+  transition: 0.6s;
+}
+
+.eric-img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.puzzle-img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.Nametag {
+  color: #000;
+  font-family: Outfit;
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about-me {
+  color: #000;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 300px;
+  align-self: center;
+  margin-top: -1.5rem;
+}
+
+.connect {
+  color: #000;
+  font-family: Outfit;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: -5px;
+  margin-bottom: 10px;
+  margin-top: -0.70rem;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.socials a:hover {
+  transform: scale(1.2);
+  transition: .5s;
+}
+
+.socials a {
+  transition: 0.5s;
+}
+
+.website {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-family: outfit;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  transition: 0.2s;
+}
+
+.website:hover {
+  color: #94BE46;
+  transition: 0.2s;
+}
+
+.ratings {
+  margin-top: -0.5rem;
+  margin-bottom: -0.5rem;
+}
+
+.purchase-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+}
+
+.purchase-container .priceless {
+  font-size: 28px;
+  font-family: outfit;
+}
+
+.add-to-cart button {
+  border-radius: 10px;
+  border: 2px solid #000000;
+  background: #FFF;
+  font-family: Outfit;
+  font-size: 15px;
+  color: #000000;
+  cursor: pointer;
+  width: 123px;
+  height: 34px;
+  transition: 0.5s;
+  font-weight: 500;
+}
+
+.add-to-cart button:hover {
+  background: #94BE46;
+  color: white;
+  border: 2px solid #94BE46;
+  transition: 0.6s;
+}

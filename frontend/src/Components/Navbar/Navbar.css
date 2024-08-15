@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -36,4 +38,72 @@
   transition: 0.3s;
   font-weight: 500;
   transform: scale(1.2);
+}
+
+.nav-logo img {
+  width: 400px;
+  height: 100px;
+}
+
+.nav-mob-close {
+  display: none;
+}
+
+.nav-mob-open {
+  display: none;
+}
+
+@media screen and (max-width:1380px) {
+  .nav-mob-open {
+    display: block;
+    position: fixed;
+    right: 30px;
+    cursor: pointer;
+    margin-top: 1.7rem;
+    z-index: 9;
+  }
+
+  .nav-mob-close {
+    display: block;
+    width: 30px;
+    cursor: pointer;
+    margin-left: 7rem;
+    margin-top: 0.5rem;
+    z-index: 10;
+  }
+
+  .nav-menu {
+    position: fixed;
+    flex-direction: column;
+    align-items: start;
+    top: 0;
+    gap: 30px;
+    background-color: #dcded5;
+    width: 150px;
+    height: 270px;
+    z-index: 2;
+    transition: right 0.5s;
+    right: -400px;
+    border: 2px solid black;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: 10;
+  }
+
+  .nav-menu li {
+    font-size: 30px;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: -1rem;
+    z-index: 10;
+  }
+}
+
+@media(max-width:495px) {
+  .nav-logo img {
+    width: 300px;
+    height: 80px;
+  }
 }
