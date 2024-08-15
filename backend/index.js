@@ -110,6 +110,7 @@ app.post('/addproduct', async (req,res)=>{
     img:req.body.img,
     description:req.body.description,
     rating:req.body.rating,
+    rating_img:req.body.rating_img,
   })
   console.log(product);
   await product.save();
