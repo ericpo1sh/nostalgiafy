@@ -48,6 +48,7 @@ This project was developed as a part of a school assignment to explore full-stac
 - **Payment Gateway**: None
 - **Hosting**: Onrender
 - **Version Control**: GitHub
+- **API Documentation**: Swagger UI
 
 ## Usage
 
@@ -56,6 +57,8 @@ This project was developed as a part of a school assignment to explore full-stac
 3. **Browse Products**: Explore the nostalgic items available in the store.
 4. **Add to Cart**: Select your favorite items and add them to your shopping cart.
 5. **Checkout**: Complete your purchase through the secure checkout process.
+
+- If you wish to view our API, visit our [API documentation here](nostalgiafy.onrender.com/api-docs).
 
 ## Contributing
 
