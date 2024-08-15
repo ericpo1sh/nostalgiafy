@@ -3,12 +3,12 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 740px;
+  height: 800px;
   padding: 10px 50px;
   margin: 30px;
   border-radius: 6px;
   background: white;
-}
+} 
 
 .listproduct-format-main{
   display: grid;
@@ -33,6 +33,10 @@
 .listproduct-remove-icon{
   cursor: pointer;
   margin: auto;
+}
+
+.listproduct-allproducts{
+  overflow-y: auto;
 }
 
 @media(max-width:800px){
